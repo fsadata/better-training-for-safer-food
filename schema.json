@@ -1,0 +1,46 @@
+{
+	"fields": [
+		{
+			"name": "CourseName",
+			"title": "CourseName",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "Location",
+			"title": "Location",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "DateFrom",
+			"title": "DateFrom",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+                                "datePattern": "%Y-%m-%d"
+			}
+		},
+		{
+			"name": "DateTo",
+			"title": "DateTo",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+                                "datePattern": "%Y-%m-%d"
+			}
+		},
+		{
+			"name": "Attendees",
+			"title": "Attendees",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		}
+	]
+}
